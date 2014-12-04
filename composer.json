@@ -1,0 +1,16 @@
+{
+    "name": "excel/entity",
+    "description":" ",
+    "keywords":[
+        "excel"
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "license": "BSD-3-Clause",
+    "autoload":{
+        "psr-4":{
+            "Excel\\Entity\\": "src/"
+        }
+    }
+}
