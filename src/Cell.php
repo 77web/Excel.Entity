@@ -12,7 +12,7 @@ class Cell implements EntityInterface
     public $coordinate;
 
     /**
-     * @var string
+     * @var \Excel\Entity\Value\ValueInterface
      */
     public $value;
 }
