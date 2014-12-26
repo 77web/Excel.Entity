@@ -7,7 +7,7 @@ namespace Excel\Entity;
 class Cell implements EntityInterface
 {
     /**
-     * @var string
+     * @var \Excel\Entity\Coordinate\Coordinate
      */
     public $coordinate;
 
