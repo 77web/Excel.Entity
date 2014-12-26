@@ -3,6 +3,7 @@
 
 namespace Excel\Entity;
 
+use Excel\Entity\Collection\CellCollection;
 
 class Sheet implements EntityInterface
 {
@@ -12,7 +13,7 @@ class Sheet implements EntityInterface
     public $name;
 
     /**
-     * @var array
+     * @var CellCollection
      */
     public $cells;
 
