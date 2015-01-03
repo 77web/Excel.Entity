@@ -4,6 +4,7 @@
 namespace Excel\Entity;
 
 use Excel\Entity\Collection\CellCollection;
+use Excel\Entity\Collection\RowCollection;
 
 class Sheet implements EntityInterface
 {
@@ -18,7 +19,7 @@ class Sheet implements EntityInterface
     public $cells;
 
     /**
-     * @var array
+     * @var RowCollection
      */
     public $rows;
 
